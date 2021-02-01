@@ -1,0 +1,334 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.header-container{
+    position: relative;
+    background-image: url(/images/header/home-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 760px;
+    width: 100%;
+}
+
+.circle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 50%;
+    top: 82px;
+    left: 116px;
+    border: #f4d4a5 solid 12px;
+}
+
+.subcircle{
+    position: absolute;
+    background-image: url(/images/header/syrprice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 194px;
+    height: 192px;
+    bottom: -75px;
+    left: 97px;
+}
+
+.text-circle{
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timber{
+    font-family: 'Lato', sans-serif;
+    color: #bf4200;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.number-tel{
+    font-size: 28px;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 32px;
+}
+
+.title-header{
+    color: #1fad26;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media(max-width:1030px){
+
+  
+
+    
+    .circle{
+        top: 14px;
+        left: 37px;
+    }
+}
+
+@media(max-width:980px){
+   
+   
+
+    .circle{
+        width: 288px;
+        height: 288px;
+    }
+
+    .timber{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .number-tel{
+        font-size: 19px;
+    }
+    
+    .title-header{
+        font-size: 20px;
+    }
+
+    .subcircle{
+        width: 160px;
+        height: 160px;
+        left: 75px;
+    }
+}
+
+
+/********************************** section **************************/
+
+/*************************************** sectionHomeTitle ********************************/
+
+.sectionHomeTitle{
+    margin-top: 90px;
+}
+
+.sectionHomeTitleContainer{
+    padding-bottom: 100px;    
+    margin-bottom: 97px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sectionHomeTitleElement{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.titleSection{
+    color: #d3823a;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+}
+
+.greatExperience{
+    text-transform: uppercase;
+}
+
+.garantia{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media(max-width:900px){
+    .sectionHomeTitle{
+        margin-top: -90px;
+    }
+}
+
+/********************************************* homeProject ******************************/
+
+.homeProjectContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.descriptionHome{
+    margin-top: 105px;
+}
+
+.title{
+    text-align: center;
+    color: #d3823a;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.textDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+
+.price{
+    color: #17753b;
+}
+
+.imgHome img{
+    width: 100%;
+}
+
+
+/************************************ downloadCatalog *******************************/
+
+.downloadCatalog{
+    margin-top: 350px;
+    margin-bottom: 115px;
+    background-color: #f1dfbc;
+}
+
+.downloadCatalogContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 42px;
+    padding-bottom: 35px;
+}
+
+.downloadCatalogContainer button{
+    background: #17753b;
+    border: 3px solid #effd15;
+    padding: 30px 50px;
+}
+
+.downloadCatalogContainer button a{
+    text-decoration: underline;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width:980px){
+
+    .downloadCatalogContainer img{
+        width: 200px;
+    }
+
+    .downloadCatalogContainer button{
+        padding: 20px 30px;
+    }
+
+    .downloadCatalogContainer button a{
+        font-size: 25px;
+    }
+}
+
+/*********************** sectionPhoto *********************/
+
+.sectionPhotoContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.textPhoto{
+    text-align: center;
+}
+
+.sectionPhotoContainer h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d3823a;
+    font-size: 30px;
+}
+
+.blockPhoto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+.blockPhoto img{
+    width: 243px;
+    height: 243px;
+    margin: 1px;
+}
+
+
+@media (max-width:980px){
+
+    
+    .sectionPhotoContainer{
+        max-width:800px;
+        margin: 0 auto;
+    }
+
+    .blockPhoto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+
+    .blockPhoto img{
+        width: 278px;
+        height: 278px;
+        margin: 2px;
+    }
+}
+
+@media(max-width: 800px){
+    .blockPhoto{
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+    }
+
+    .blockPhoto img{
+        width: 70%;
+        max-width: 100%;
+    }
+}
+
+/************************ footer *********************/
+
+.footerContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: centers;
+}
+
+.footerContainer span{
+    margin-top: 140px;
+    margin-bottom: 90px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footerContainer a{
+    margin-bottom: 100px;
+    color: blue;
+}
